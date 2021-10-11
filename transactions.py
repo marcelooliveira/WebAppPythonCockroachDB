@@ -14,3 +14,4 @@ def add_score_txn(session, avatar, playername, points):
         points=points
     )
     session.add(score)
+
